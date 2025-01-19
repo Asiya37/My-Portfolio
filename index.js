@@ -17,22 +17,6 @@ document.addEventListener("DOMContentLoaded", () => {
     // Run immediately to show the first word
     changeWord();
 });
-// app.post('/send-email', (req, res) => {
-//     const { name, email, message } = req.body;
 
-//     // Send the response immediately
-//     alert('Your message has been received! We will contact you shortly.');
-
-//     // Process email sending in the background
-//     transporter.sendMail({
-//         from: 'siyaaaach@gmail.com',
-//         to: 'asiyaakram45@gmail.com',
-//         subject: `Form Submission from ${name}`,
-//         text: `Message: ${message}`,
-//     }).then(info => {
-//         console.log('Email sent:', info.response);
-//     }).catch(error => {
-//         console.error('Error sending email:', error);
-//     });
 // });
 
