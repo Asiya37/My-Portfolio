@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio website showcasing skills, projects, and contact information">
+    <meta name="author" content="Asiya">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@300&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body>
+    <header>
+        <nav>
+            <li style="font-family: Outfit; color: white; margin-right: 1150px; margin-left: -800px; text-decoration: none; list-style: none;" class="portfolio">MY PORTFOLIO</li>
+            <ul>
+               
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <div class="img"></div>
+     
+        <div class="container">
+            <h1>Hi, I'm <span>Asiya</span> </h1>
+            <p>
+                A Dedicated Front-end Developer <br> Turning Visions into Reality
+           <!-- <span style="font-family: Outfit", serif; font-weight: 200; font-size: 20px;" id="changing-word" class="fade">Precision</span> -->
+ 
+                </p>
+     
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+       
+        <div class="about">
+           
+            <div class="img1">
+                <img src="img/about.png" alt="" srcset="">
+            </div>
+            <div class="aboutpara">
+                <h2>About Me</h2>
+                <div class="line"> </div>
+          
+            
+                <p>Hi, I’m Asiya, a creative and detail-oriented frontend web developer who loves bringing ideas to life through clean, efficient, and innovative code. With a strong focus on user experience and design aesthetics, I aim to build websites that don’t just look great but also deliver seamless performance. My passion for web development started with a simple curiosity about how websites work and quickly grew into a full-fledged career path.  <br><br>  <span class="cv">You can explore more about my professional journey, skills, and accomplishments by downloading my CV</span>
+                    <br>
+                 <a href="cv.pdf" download class="btn">Download CV</a>
+                </p>
+            </div>
+       
+      
+        </div>
+    </section>
+
+      <!-- Services Section -->
+      <section id="services">
+        <div class="container">
+            <h2>Services I Offer</h2>
+            <div class="line2"> </div>
+            <div class="services">
+                <div class="service">
+                    <h3>Web Development</h3>
+                    <p>Creating responsive, user-friendly websites tailored to your needs.</p>
+                </div>
+                <div class="service">
+                    <h3>UI/UX Design</h3>
+                    <p>Designing intuitive and visually appealing interfaces for a seamless user experience.</p>
+                </div>
+                <div class="service">
+                    <h3>Website Optimization</h3>
+                    <p>Improving website performance, speed, and SEO rankings.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="line3"> </div>
+            <div class="projects">
+                <div class="project">
+                    <h3>Project 1</h3>
+                    <p>Description of project 1. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. <a href="#">View More</a></p>
+                </div>
+                <div class="project">
+                    <h3>Project 2</h3>
+                    <p>Description of project 2. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. <a href="#">View More</a></p>
+                </div>
+                <div class="project">
+                    <h3>Project 3</h3>
+                    <p>Description of project 3. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. <a href="#">View More</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section  id="contact">
+        
+        <div class="social">
+            <p>  Let's connect and convert your vision's  into reality. </p>
+            <div class="link">
+                <a href="https://github.com/Asiya37" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/asiya-akram-6aa5222b2/" target="_blank">LinkedIn</a>
+            <a href="https://wa.me/+923176134184" target="_blank">WhatsApp</a>
+
+            </div>
+            
+        </div>
+        <div class="container">
+            <h2>Contact Me  <div class="line4"> </div></h2>
+           
+           
+                <form action="http://localhost:3000/send-email" method="POST">
+                    <label for="name"></label>
+                    <input type="text" id="name" name="name" required placeholder="Name">
+    
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" required placeholder="Email">
+    
+                    <label for="message"></label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Message"></textarea>
+    
+                    <button type="submit">Send Message</button>
+                </form>
+
+          
+           
+          
+
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Asiya Akram. All Rights Reserved.</p>
+    </footer>
+   
+
+    <!-- <script src="index.js"></script> -->
+   
+</body>
+
+</html>
