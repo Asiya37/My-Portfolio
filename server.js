@@ -17,15 +17,15 @@ app.post('/send-email', (req, res) => {
     const transporter = nodemailer.createTransport({
         service: 'gmail', // e.g., Gmail. Change based on your email provider.
         auth: {
-            user: 'asiyaakram45@gmail.com', // Replace with your email
-            pass: 'zvdt cfyk roit eiyx', // Replace with your email password or app-specific password
+            user: '######@gmail.com', // Replace with your email
+            pass: 'Google App  Password', // Replace with your email password or app-specific password
         },
     });
 
     // Email options
     const mailOptions = {
-        from: 'siyaaach@gmail.com',
-        to: 'asiyaak@gmail.com', // Replace with the recipient's email
+        from: '@@@@@gmail.com',
+        to: '@@@@@@gmail.com', // Replace with the recipient's email
         subject: `Form Submission from ${name}`,
         text: `You have a new message from  \n Name: \t ${name} \n Email:\t(${email})\n Msg: \t${message}`,
     };
